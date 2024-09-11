@@ -400,7 +400,6 @@ h3.my-profession {
 
 
 /* About */
-
 .about .about-content {
    flex: 0 0 100%;
    max-width: 100%;
@@ -600,9 +599,6 @@ h3.my-profession {
    color: var(--text-black-700);
 }
 
-
-
-
 /* services */
 .row1 {
    display: flex;
@@ -700,15 +696,12 @@ h3.my-profession {
 }
 
 .project-image {
-   width: 300px;
-  height: 240px;
-
+   width: 500px;
 }
 
 .second-image {
    position: relative;
    right: 39px;
-   width: 350px;
 }
 
 .last-image {
@@ -729,9 +722,6 @@ h3.my-profession {
    display: block;
 }
 
-
-/* contact */
-
 .contact-title {
    color: var(--skin-color);
    text-align: center;
@@ -743,7 +733,6 @@ h3.my-profession {
    color: var(--text-black-900);
    text-align: center;
    font-size: 15px;
-   margin-bottom: 60px;
 
 }
 
@@ -829,7 +818,50 @@ h3.my-profession {
    padding: 0 50px;
 }
 
+/* **************************************************************************************************** */
+/* Responsive styles for tablets */
+/* @media (max-width: 768px) {
+   .contact .contact-info-item {
+      flex: 0 0 50%;
+      max-width: 50%;
+   }
 
+   .contact .contact-form .col-6,
+   .contact .contact-form .col-12 {
+      flex: 0 0 100%;
+      max-width: 100%;
+   }
+} */
+
+/* Responsive styles for mobile */
+/* @media (max-width: 480px) {
+   .contact .contact-info-item {
+      flex: 0 0 100%;
+      max-width: 100%;
+   }
+
+   .contact .contact-form .form-item {
+      margin-bottom: 15px;
+   }
+
+   .contact .contact-form .form-item .form-control {
+      height: 40px;
+   }
+
+   .contact .contact-form .btn {
+      height: 40px;
+      padding: 0 25px;
+      margin-left: 50px;
+   }
+
+   .contact-form{
+      margin-left: 30px;
+   }
+
+   .portfolio-img img{
+      height: 100%;
+   }
+} */
 
 /* **************************************************************************************************** */
 @media(max-width:1199px) {
