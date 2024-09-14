@@ -917,7 +917,7 @@ h3.my-profession {
    .home .home-img {
       display: block;
       flex-direction: column;
-      margin-top: 70px;
+      margin-top: 0px;
       margin-left: 0px;
    }
 
